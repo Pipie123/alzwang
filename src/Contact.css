@@ -1,0 +1,149 @@
+.email h1 {
+    font-family: Montserrat, serif;
+    font-size: 50px;
+    margin-left: 60px;
+    color: #cccccc;
+    padding-top: 20px;
+}
+
+.email p {
+    font-family: Montserrat, serif;
+    color: #cccccc;
+    margin-left: 60px;
+}
+
+.email input:first-child {
+    background-color: #353840;
+    margin-left: 60px;
+    border: none;
+    height: 40px;
+    width: 250px;
+}
+
+.email input:last-child {
+    background-color: #353840;
+    margin-left: 10px;
+    border: none;
+    height: 40px;
+    width: 250px;
+}
+
+.emailBox {
+    padding-top: 20px;
+    margin-left: 60px;
+}
+
+.emailBox input {
+    font-family: Montserrat, serif;
+    background-color: #353840;
+    width: 510px;
+    border: none;
+    height: 40px;
+}
+
+.messageBox {
+    padding-top: 20px;
+    margin-left: 60px;
+}
+
+.messageBox input {
+    font-family: Montserrat, serif;
+    background-color: #353840;
+    border: none;
+    width: 510px;
+    height: 200px;
+}
+
+.socialMedia h1 {
+    font-family: Montserrat, serif;
+    font-size: 50px;
+    color: #cccccc;
+}
+
+div.socialMedia {
+    right: 100px;
+    top: 80px;
+    width: 550px;
+    position: absolute;
+}
+
+.socialMedia img {
+    max-height: 50px;
+    float: left;
+}
+
+.gitAnimation {
+    animation: imgChange 1s normal;
+    animation-fill-mode: forwards;
+}
+
+.linkedAnimation {
+    animation: imgChange2 1s normal;
+    animation-fill-mode: forwards;
+}
+
+.gitAnimationBack {
+    animation: imgChangeBack 1s normal;
+    animation-fill-mode: forwards;
+}
+
+.linkedAnimationBack {
+    animation: imgChangeBack2 1s normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes imgChange {
+    0% {
+        filter: none;
+    }
+    100% {
+        filter: invert(100%);
+    }
+}
+
+@keyframes imgChangeBack {
+    0% {
+        filter: invert(100%);
+    }
+    100% {
+        filter: none;
+    }
+}
+
+@keyframes imgChange2 {
+    0% {
+        filter: none;
+    }
+    100% {
+        filter: grayscale(100%);
+    }
+}
+
+@keyframes imgChangeBack2 {
+    0% {
+        filter: grayscale(100%);
+    }
+    100% {
+        filter: none;
+    }
+}
+
+.socialMedia h2 {
+    font-family: Montserrat, serif;
+    color: #cccccc;
+    font-size: 40px;
+    margin-left: 20px;
+    display: inline;
+}
+
+.socialMedia h3 {
+    font-family: Montserrat, serif;
+    color: #cccccc;
+    font-size: 20px;
+    margin-left: 10px;
+    display: inline;
+}
+
+.title {
+    padding-top: 100px;
+}

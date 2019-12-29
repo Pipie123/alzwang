@@ -1,0 +1,16 @@
+div.about {
+    width: 600px;
+    margin-left: 60px;
+}
+
+.about h1 {
+    font-family: Montserrat, serif;
+    font-size: 50px;
+}
+
+.about h2 {
+    color: #cccccc;
+    font-family: Montserrat, serif;
+    font-size: 20px;
+    font-weight: 300;
+}
