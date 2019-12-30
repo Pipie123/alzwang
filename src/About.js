@@ -33,14 +33,21 @@ function About() {
                 </div>
                 <div className="about">
                     <h1>About Me</h1>
-                    <h2>I am currently an undergraduate student working for a degree in Computer Science.</h2>
-                    <h2>I am a problem solver who is willing to take on new challenges who is very attentive to
-                        detail.</h2>
-                    <h2>During my life, I am exposed and influenced by graphic design, thus I am aiming to
-                        focus more of the front end aspect. I also acknowledge the impact of future technologies,
-                        such as AR and VR, thus I aim to learn to work with those features.</h2>
-                    <h2>To gain more experience, I seek to work in frontend and hopefully work in a
-                        healthy and friendly environment.</h2>
+                    <h2>I am a Junior at Auburn University pursuing a B.S. degree in Computer Science.</h2>
+
+                    <h2>I am a problem solver who is willing to take on new challenges while being very attentive to
+                        details.</h2>
+
+                    <h2>Throughout my life, I have been exposed to and influenced by graphic designs; thus,
+                        I have a keen interest in UI/UX designs focusing on front-end development.
+                        I acknowledge the impact of future technologies as well as visual designs on customer
+                        experience,
+                        and I strive to create the best products by combining the two.</h2>
+
+                    <h2>While at Auburn, I have developed several projects through collaborating with designers and
+                        engineers, and I am currently looking for internship opportunities to gain further
+                        experience in UI/UX and front-end development.</h2>
+
                 </div>
             </div>
         </div>

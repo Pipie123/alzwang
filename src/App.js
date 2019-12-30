@@ -36,9 +36,10 @@ function App() {
                 </div>
                 <div className="font" id="font">
                     <h1 id="hideText" onMouseEnter={hoverMechanic}>HOME</h1>
-                    <h2 id="hiddenText">My name is Albert Z Wang. This is my first website.</h2>
-                    <h2 id="hiddenText1">As of recently I am interested in FrontEnd Developing.</h2>
-                    <h2 id="hiddenText2">Below are some of the previous work I have created.</h2>
+                    <h2 id="hiddenText">Hi, my name is Albert Z Wang.</h2>
+                    <h2 id="hiddenText1">As of recently I am interested in FrontEnd Developing along with UI/UX
+                        Design</h2>
+                    <h2 id="hiddenText2">Below are some of the previous projects I have worked on.</h2>
                 </div>
                 <div className="projectsFontRight">
                     <h1>PROJECTS</h1>
@@ -47,8 +48,8 @@ function App() {
                     <h3 id="right1">I personally worked on them for a couple of weeks.
                         The purpose of this project is to create an app that aides people in
                         creating conversations with a more approachable method.</h3>
-                    <img className="imgRight" id="rightImg" src={Quest}/>
-                    <img className="imgRight2" id="rightImg2" src={Spark}/>
+                    <img className="imgRight" id="rightImg" src={Quest} alt="frndquest"/>
+                    <img className="imgRight2" id="rightImg2" src={Spark} alt="sparkqs"/>
                 </div>
                 <div className="projectsFontLeft">
                     <h2 id="left">Logo Designs</h2>
@@ -56,8 +57,8 @@ function App() {
                         to match the theme of products presented. I aim to create simple, yet striking details to
                         effectively
                         convey what is being pitched within presentations.</h3>
-                    <img className="imgLeft" id="leftImg" src={Cars}/>
-                    <img className="imgLeft2" id="leftImg2" src={Last}/>
+                    <img className="imgLeft" id="leftImg" src={Cars} alt="cars"/>
+                    <img className="imgLeft2" id="leftImg2" src={Last} alt="outlast"/>
                 </div>
             </div>
             <div className="box">
